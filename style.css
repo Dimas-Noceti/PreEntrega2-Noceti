@@ -24,6 +24,8 @@
     color: white !important;
 }
 
+/* HOME PAGE EMPIEZA */
+
 .divmain{
     height: 800px;
 }
@@ -80,6 +82,8 @@ main{
 .sectionoverflow{
     overflow: hidden;
 }
+
+/* HOME PAGE TERMINA */
 
 footer{
     height: 200px;
