@@ -87,7 +87,7 @@
 /* RECETAS PAGE EMPIEZA */
 .mainrecetas{
     background-color: beige;
-    height: 100vh;
+    height: 170vh;
 }
 
 .galeriarecetas{
@@ -122,6 +122,9 @@
 }
 /* RECETAS PAGE TERMINA */
 
+.heightcarousel{
+    height: 600px;
+}
 
 footer{
     height: 200px;
