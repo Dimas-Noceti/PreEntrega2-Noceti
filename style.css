@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif
+}
+.navbar-brand{
+    font-size: 80px;
+    color: rgb(63, 91, 59) !important;
+}
+
+.navbar{
+    background-color: rgb(190, 229, 191);
+}
+
+.navbar-nav a{
+    color: rgb(63, 91, 59) !important;
+    font-size: 25px;
+}
+
+.navbar-nav a:hover{
+    color: white !important;
+}
+
+.divmain{
+    height: 800px;
+}
+
+.titulorecetas{
+    color: rgb(63, 91, 59);
+    font-size: 60px;
+    padding-top: 90px;
+}
+
+main{
+    background-image: url(./multimedia/food-2879265_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cards{
+    background: none;
+}
+
+.textoscomidas{
+    background-color: rgb(190, 229, 191);
+    transition: all 0.2s;
+}
+
+.textoscomidas:hover{
+    background-color: rgb(201, 249, 191);
+    transform: scale(1.13);
+}
+
+.textoscomidas a{
+    color: rgb(63, 91, 59);
+    display: flex;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.textoscomidas a:link{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.textoscomidas a:active{
+    box-shadow: none !important;
+}
+
+.sectionrecetas{
+    background-color: beige;
+    height: 500px;
+    font-size: 20px;
+}
+
+.sectionoverflow{
+    overflow: hidden;
+}
+
+footer{
+    height: 200px;
+    border: 15px solid rgb(190, 229, 191);
+    background-color: rgb(190, 229, 191);
+    font-size: 30px;
+    color: white;
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1500px){
+    .navbar-nav a{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1083px){
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .textoscomidas{
+        margin: 0 0 40px 0px !important;
+    }
+    .textoscomidas:hover{
+        transform: scale(1);
+    }
+    .sectionrecetas{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .titulorecetas{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .divmain{
+        height: 2000px;
+    }
+}
