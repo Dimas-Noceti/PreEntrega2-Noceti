@@ -90,7 +90,36 @@
     height: 100vh;
 }
 
+.galeriarecetas{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: 300px 300px
+}
 
+.item{
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}
+
+.item1{
+    background-image: url(./multimedia/foto-para-recetas.jpg);
+}
+.item2{
+    background-image: url(./multimedia/foto-para-recetas2.jpg);
+}
+.item3{
+    background-image: url(./multimedia/foto-para-recetas3.jpg);
+}
+.item4{
+    background-image: url(./multimedia/foto-para-recetas4.jpg);
+}
+.item5{
+    background-image: url(./multimedia/foto-para-recetas5.jpg);
+}
+.item6{
+    background-image: url(./multimedia/foto-para-recetas6.jpg);
+}
 /* RECETAS PAGE TERMINA */
 
 
