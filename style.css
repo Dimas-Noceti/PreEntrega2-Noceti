@@ -36,7 +36,7 @@
     padding-top: 90px;
 }
 
-main{
+.mainindex{
     background-image: url(./multimedia/food-2879265_1920.jpg);
     background-position: center;
     background-size: cover;
@@ -84,6 +84,15 @@ main{
 }
 
 /* HOME PAGE TERMINA */
+/* RECETAS PAGE EMPIEZA */
+.mainrecetas{
+    background-color: beige;
+    height: 100vh;
+}
+
+
+/* RECETAS PAGE TERMINA */
+
 
 footer{
     height: 200px;
