@@ -44,6 +44,7 @@
 
 .cards{
     background: none;
+    border: none;
 }
 
 .textoscomidas{
@@ -120,11 +121,12 @@
 .item6{
     background-image: url(./multimedia/foto-para-recetas6.jpg);
 }
-/* RECETAS PAGE TERMINA */
 
 .heightcarousel{
     height: 600px;
 }
+
+/* RECETAS PAGE TERMINA */
 
 footer{
     height: 200px;
