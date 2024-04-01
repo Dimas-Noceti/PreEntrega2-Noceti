@@ -128,6 +128,24 @@
 
 /* RECETAS PAGE TERMINA */
 
+/* NOVEDADES PAGE EMPIEZA */
+.mainnovedades{
+    background-color: beige;
+    height: 150vh;
+}
+
+.videosgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 400px);
+}
+.videos{
+    border: 4px solid black;
+}
+
+
+/* NOVEDADES PAGE TERMINA */
+
 footer{
     height: 200px;
     border: 15px solid rgb(190, 229, 191);
