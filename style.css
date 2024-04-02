@@ -136,8 +136,13 @@
 /* NOVEDADES PAGE TERMINA */
 /* SOBRE NOSOTROS PAGE EMPIEZA */
 .mainnosotros{
-    height: 100vh;
+    height: 1500px;
     background-color: beige;
+}
+
+.cardsnosotros{
+    border: none;
+    background-color: transparent !important;
 }
 /* SOBRE NOSOTROS PAGE TERMINA */
 
@@ -192,5 +197,8 @@ footer{
     }
     .divmain{
         height: 2000px;
+    }
+    .mainnosotros{
+        height: 5700px;
     }
 }
