@@ -127,15 +127,19 @@
 }
 
 /* RECETAS PAGE TERMINA */
-
 /* NOVEDADES PAGE EMPIEZA */
 .mainnovedades{
     background-color: beige;
     height: 1400px;
 }
 
-
 /* NOVEDADES PAGE TERMINA */
+/* SOBRE NOSOTROS PAGE EMPIEZA */
+.mainnosotros{
+    height: 100vh;
+    background-color: beige;
+}
+/* SOBRE NOSOTROS PAGE TERMINA */
 
 footer{
     height: 200px;
@@ -151,7 +155,6 @@ footer{
     font-size: 50px;
     letter-spacing: 20px;
 }
-
 
 /* MEDIA QUERIES */
 
