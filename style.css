@@ -147,7 +147,7 @@
 /* SOBRE NOSOTROS PAGE TERMINA */
 /* CONTACTANOS PAGE EMPIEZA */
 .maincontactanos{
-    height: 100vh;
+    height: 150vh;
     background-color: beige;
 }
 .correo{
@@ -159,6 +159,26 @@
 .numero2{
     width: 416px;
 }
+
+.contactanoslogos {    
+    text-decoration: none;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contactanoslogos a{
+    color: rgb(63, 91, 59);
+    text-decoration: none;
+    font-size: 80px;
+    letter-spacing: 20px;
+}
+
+#pindelmapa{
+    font-size: 90px;
+    color: rgb(63, 91, 59);
+}
+
 /* CONTACTANOS PAGE TERMINA */
 
 footer{
